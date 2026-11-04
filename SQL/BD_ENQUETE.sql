@@ -122,7 +122,7 @@ VALUES (NOW(), '2027-01-01', 'Enquete sobre futebol', 'Melhor jogador da histór
         (NOW(), '2027-01-01', 'Enquete sobre escola', 'Melhor dia para se faltar'),
         (NOW(), '2027-01-01', 'Enquete sobre tudo', 'Qualquer tema');
 
-SELECT * FROM ENQUETE;
+SELECT * FROM ENQUETE; 
 
 INSERT INTO PERGUNTAS (
 						PER_DESCRICAO,
